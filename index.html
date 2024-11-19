@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <title>Mahadev Prasad Pal</title>
+    <!-- ionicons JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <script defer src="script.js"></script>
   </head>
@@ -21,7 +30,6 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-
       <!-- NAVIGATION PANEL -->
       <nav class="nav">
         <img
@@ -47,6 +55,12 @@
         </ul>
       </nav>
 
+      <!-- MOBILE NAVIGATION -->
+      <!-- <button class="mobile-nav">
+        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+      </button> -->
+
       <!-- CONTACT MODAL -->
       <div class="modal hidden">
         <button class="btn-close_modal">&times;</button>
@@ -55,22 +69,22 @@
         </h2>
         <div class="contact-container">
           <div class="contact-details">
-              <div class="contact__icon">
-                <svg>
-                  <use xlink:href="img/icons.svg#icon-phone"></use>
-                </svg>
-              </div>
+            <div class="contact__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
             <a class="contact-to" href="tel:(+91)789-407-5323"
-            >(+91)789-407-5323</a
+              >(+91)789-407-5323</a
             >
           </div>
 
           <div class="contact-details">
-              <div class="contact__icon">
-                <svg>
-                  <use xlink:href="img/icons.svg#icon-mail"></use>
-                </svg>
-              </div>
+            <div class="contact__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
             <a class="contact-to" href="mailto:mahadevprasadpal99@gmail.com"
               >mahadevprasadpal99@gmail.com</a
             >
@@ -89,15 +103,14 @@
           <br />
           <span class="highlight">web developer</span>
         </h1>
-        <h4>Skilled in HTML5, CSS3, JavaScript, React, Java and SQL</h4>
+        <h4>
+          Skilled in HTML5, CSS3 and JavaScript with an intermediate knowledge
+          in Java and SQL
+        </h4>
         <button class="btn--text btn--scroll-to">
           Projects and more about me &DownArrow;
         </button>
-        <img
-          src="./img/Avatar.png"
-          class="header_img"
-          alt="An avatar"
-        />
+        <img src="./img/Avatar.png" class="header_img" alt="An avatar" />
       </div>
     </header>
 
@@ -111,15 +124,13 @@
       <div class="projects">
         <!-- PROJECT 1 -->
         <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
+          src="img/omnifood-lazy.jpeg"
+          data-src="img/omnifood.jpg"
           alt="Omnifood Logo"
           class="projects__img lazy-img"
         />
         <div class="projects__details">
-          <h5 class="projects__header">
-            Omnifood
-          </h5>
+          <h5 class="projects__header">Omnifood</h5>
           <p>
             Omnifood is an AI-Powered food subscription that will make you eat
             healthy again on daily basis. It's tailored to your personal tastes
@@ -129,7 +140,10 @@
             <a href="https://omnifood-by-mahadev.netlify.app/" target="_blank">
               <button class="btn btn__demo">Live Demo</button>
             </a>
-            <a href="https://github.com/MV2222/omnifood_project" target="_blank">
+            <a
+              href="https://github.com/MV2222/omnifood_project"
+              target="_blank"
+            >
               <button class="btn btn__code">GitHub Code</button>
             </a>
           </div>
@@ -137,41 +151,43 @@
 
         <!-- PROJECT 2 -->
         <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
+          src="img/old_website-lazy.jpeg"
+          data-src="img/old_website.jpg"
           alt="Omnifood Logo"
           class="projects__img lazy-img"
         />
         <div class="projects__details">
-          <h5 class="projects__header">
-            Mahadev Prasad Pal
-          </h5>
-          <p>
-            The earlier version of my portfolio website.
-          </p>
+          <h5 class="projects__header">Mahadev Prasad Pal</h5>
+          <p>The earlier version of my portfolio website.</p>
           <div class="project__link">
-            <a href="https://mahadev-prasad-pal-v1.netlify.app/" target="_blank">
+            <a
+              href="https://mahadev-prasad-pal-v1.netlify.app/"
+              target="_blank"
+            >
               <button class="btn btn__demo">Live Demo</button>
             </a>
-            <a href="https://github.com/MV2222/personal_website_v1" target="_blank">
+            <a
+              href="https://github.com/MV2222/personal_website_v1"
+              target="_blank"
+            >
               <button class="btn btn__code">GitHub Code</button>
             </a>
           </div>
         </div>
-        
-        <!-- PROJECT 2 -->
+
+        <!-- PROJECT 3 -->
         <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
+          src="img/pig_game-lazy.jpeg"
+          data-src="img/pig_game.jpg"
           alt="Omnifood Logo"
           class="projects__img lazy-img"
         />
         <div class="projects__details">
-          <h5 class="projects__header">
-            Pig Game
-          </h5>
+          <h5 class="projects__header">Pig Game</h5>
           <p>
-            A fun game to spend some quality time with your loved ones in multi-player mode. Whoever reaches 100 first gets a treat from the loser.
+            A fun game to spend some quality time with your loved ones in
+            multi-player mode. Whoever reaches 100 first gets a treat from the
+            loser.
           </p>
           <div class="project__link">
             <a href="https://pig-game-by-mahadev.netlify.app/" target="_blank">
@@ -181,33 +197,33 @@
               <button class="btn btn__code">GitHub Code</button>
             </a>
           </div>
-          
         </div>
 
-        <!-- PROJECT 3 -->
+        <!-- PROJECT 4 -->
         <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
+          src="img/guess_number-lazy.jpeg"
+          data-src="img/guess_number.jpg"
           alt="Omnifood Logo"
           class="projects__img lazy-img"
         />
         <div class="projects__details">
-          <h5 class="projects__header">
-            Guess The Number
-          </h5>
-          <p>
-            A retro style game to enjoy your leisure.
-          </p>
+          <h5 class="projects__header">Guess The Number</h5>
+          <p>A retro style game to enjoy your leisure.</p>
           <div class="project__link">
-            <a href="https://guess-the-number-by-mahadev.netlify.app/" target="_blank">
+            <a
+              href="https://guess-the-number-by-mahadev.netlify.app/"
+              target="_blank"
+            >
               <button class="btn btn__demo">Live Demo</button>
             </a>
-            <a href="https://github.com/MV2222/guess_the_number" target="_blank">
+            <a
+              href="https://github.com/MV2222/guess_the_number"
+              target="_blank"
+            >
               <button class="btn btn__code">GitHub Code</button>
             </a>
-          </div>      
+          </div>
         </div>
-
       </div>
     </section>
 
@@ -215,8 +231,9 @@
     <section class="section" id="section-2">
       <div class="section__title">
         <h2 class="section__description">Education</h2>
-        <h3 class="section__header">I am a 
-          <span class="highlight">2023</span> fresher.</h3>
+        <h3 class="section__header">
+          I am a <span class="highlight">2023</span> fresher.
+        </h3>
       </div>
 
       <div class="education">
@@ -247,10 +264,10 @@
             </svg>
           </div>
           <h5 class="education__header">2021-2023</h5>
+          <p>CGPA- 8.39</p>
+          <p>College- Biju Patnaik University of Technology (BPUT), Odisha</p>
           <p>
-            <p>CGPA- 8.30</p>
-            <p>College- Biju Patnaik University of Technology (BPUT), Odisha</p>
-            <p>University- Biju Patnaik University of Technology (BPUT), Odisha</p>
+            University- Biju Patnaik University of Technology (BPUT), Odisha
           </p>
         </div>
 
@@ -261,10 +278,10 @@
             </svg>
           </div>
           <h5 class="education__header">2017-2021</h5>
+          <p>CGPA- 8.03</p>
+          <p>College- Nalanda Institute of Technology(NIT), Odisha</p>
           <p>
-            <p>CGPA- 8.03</p>
-            <p>College- Nalanda Institute of Technology(NIT), Odisha</p>
-            <p>University- Biju Patnaik University of Technology (BPUT), Odisha</p>
+            University- Biju Patnaik University of Technology (BPUT), Odisha
           </p>
         </div>
 
@@ -275,11 +292,9 @@
             </svg>
           </div>
           <h5 class="education__header">2015-2017</h5>
-          <p>
-            <p>Percentage- 52.33</p>
-            <p>College- Stewart Science College, Odisha</p>
-            <p>Board- Council of Higher Secondary Education (CHSE), Odisha</p>
-          </p>
+          <p>Percentage- 52.50</p>
+          <p>College- Stewart Science College, Odisha</p>
+          <p>Board- Council of Higher Secondary Education (CHSE), Odisha</p>
         </div>
 
         <div class="education__content education__content--4">
@@ -289,11 +304,9 @@
             </svg>
           </div>
           <h5 class="education__header">2011-2015</h5>
-          <p>
-            <p>Percentage- 86.17</p>
-            <p>School- Saraswati Shishu Vidya Mandir (SSVMT), Odisha</p>
-            <p>Board- Board of Secondary Education (BSE), Odisha</p>
-          </p>
+          <p>Percentage- 86.16</p>
+          <p>School- Saraswati Shishu Vidya Mandir (SSVMT), Odisha</p>
+          <p>Board- Board of Secondary Education (BSE), Odisha</p>
         </div>
       </div>
     </section>
@@ -321,9 +334,9 @@
           <div class="about">
             <h5 class="about__header">Writing</h5>
             <p class="about__text">
-              Redefining my ways of writing helps me introspect. It shapes me in a
-              better way each time. During the COVID pandemic
-              I participated in a writing event and won the second prize.
+              Redefining my ways of writing helps me introspect. It shapes me in
+              a better way each time. During the COVID pandemic I participated
+              in a writing event and won the second prize.
             </p>
           </div>
         </div>
@@ -332,7 +345,10 @@
           <div class="about">
             <h5 class="about__header">Photography</h5>
             <p class="about__text">
-              I love photography. Taking a perfect picture or turning an ordinary photo to a wonderful one through editing pumps me up.
+              I love photography. Taking a perfect picture or turning an
+              ordinary photo to a wonderful one through editing pumps me up.
+              During my graduation, I took part in annual mobile photography
+              contest and got the runners-up title.
             </p>
           </div>
         </div>
@@ -341,11 +357,10 @@
           <div class="about">
             <h5 class="about__header">Travelling</h5>
             <p class="about__text">
-              Some classrooms do not have boundaries. Nature is
-              the best guide one can afford without any cost and get the most
-              precious award for finding self. Travelling places has always
-              helped me a lot in building a calm and peaceful self who stays
-              joyful all the time.
+              Some classrooms do not have boundaries. Nature is the best guide
+              one can afford without any cost and get the most precious reward
+              for finding self. Travelling places has always helped me a lot in
+              building a calm and peaceful self who stays joyful all the time.
             </p>
           </div>
         </div>
@@ -359,7 +374,11 @@
     <footer class="footer__signature">
       <p class="footer__copyright">
         &copy;
-        <img src="./img/s-logo black.png" alt="" class="footer__logo" />
+        <img
+          src="./img/s-logo black.png"
+          alt="Mahadev Prasad Pal Website's logo"
+          class="footer__logo"
+        />
         Mahadev Prasad Pal
       </p>
     </footer>
