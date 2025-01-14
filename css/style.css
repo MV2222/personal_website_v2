@@ -334,7 +334,7 @@ h4 {
   border-radius: 50%;
 }
 
-.education__icon svg {
+.education__icon ion-icon {
   height: 2.75rem;
   width: 2.75rem;
 }
