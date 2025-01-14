@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/s-logo white.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Mahadev Prasad Pal</title>
+    <!-- ionicons JS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAVIGATION PANEL -->
+      <nav class="nav">
+        <img
+          src="img/c-logo black.png"
+          alt="Mahadev Prasad Pal Website's logo"
+          class="logo"
+          id="logo"
+          data-version-number="2.2"
+        />
+        <ul class="nav_links">
+          <li class="nav_item">
+            <a class="nav_link" href="#section-1">Projects</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#section-2">Education</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#section-3">About</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link nav_link-btn btn-show_modal" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- CONTACT MODAL -->
+      <div class="modal hidden">
+        <button class="btn-close_modal">&times;</button>
+        <h2 class="modal_header">
+          <span class="highlight">Get in touch with me</span>
+        </h2>
+        <div class="contact-container">
+          <div class="contact-details">
+            <div class="contact__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <a class="contact-to" href="tel:(+91)789-407-5323"
+              >(+91)789-407-5323</a
+            >
+          </div>
+
+          <div class="contact-details">
+            <div class="contact__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+            <a class="contact-to" href="mailto:mahadevprasadpal99@gmail.com"
+              >mahadevprasadpal99@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL OVERLAY -->
+      <div class="overlay hidden"></div>
+
+      <!-- HERO SECTION -->
+      <div class="header_title">
+        <h1>
+          A passionate
+          <span class="highlight">full-stack</span>
+          <br />
+          <span class="highlight">web developer</span>
+        </h1>
+        <h4>
+          Skilled in HTML5, CSS3, JavaScript, ReactJS and Node.js with an
+          intermediate knowledge in Java
+        </h4>
+        <button class="btn--text btn--scroll-to">
+          Projects and more about me &DownArrow;
+        </button>
+        <img src="./gif/header-gif1.avif" alt="" class="header_img" />
+      </div>
+    </header>
+
+    <!-- SECTION-1 -->
+    <section class="section" id="section-1">
+      <div class="section__title">
+        <h2 class="section__description">Projects</h2>
+        <h3 class="section__header">Here are few projects I have worked on</h3>
+      </div>
+
+      <div class="projects">
+        <!-- PROJECT 1 -->
+        <img
+          src="img/expense_tracker-lazy.jpeg"
+          data-src="img/expense_tracker.jpeg"
+          alt="A snippet of the working demo of 'Expense Tracker'"
+          class="projects__img lazy-img"
+        />
+        <div class="projects__details">
+          <h5 class="projects__header">Expense Tracker</h5>
+          <p>Keep track of your expenses online efficiently.</p>
+          <div class="project__link">
+            <a
+              href="https://expense-tracker-by-mahadev.netlify.app/"
+              target="_blank"
+            >
+              <button class="btn btn__demo">Live Demo</button>
+            </a>
+            <a href="https://github.com/MV2222/expense_tracker" target="_blank">
+              <button class="btn btn__code">GitHub Code</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <img
+          src="img/omnifood-lazy.jpeg"
+          data-src="img/omnifood.jpg"
+          alt="A snippet of the working demo of 'Omnifood'"
+          class="projects__img lazy-img"
+        />
+        <div class="projects__details">
+          <h5 class="projects__header">Omnifood</h5>
+          <p>
+            Omnifood is an AI-Powered food subscription that will make you eat
+            healthy again on daily basis. It's tailored to your personal tastes
+            and nutiotional needs.
+          </p>
+          <div class="project__link">
+            <a href="https://omnifood-by-mahadev.netlify.app/" target="_blank">
+              <button class="btn btn__demo">Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/MV2222/omnifood_project"
+              target="_blank"
+            >
+              <button class="btn btn__code">GitHub Code</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <img
+          src="img/old_website-lazy.jpeg"
+          data-src="img/old_website.jpg"
+          alt="A snippet of the working demo of my first portfolio website"
+          class="projects__img lazy-img"
+        />
+        <div class="projects__details">
+          <h5 class="projects__header">Mahadev Prasad Pal</h5>
+          <p>An earlier version of my portfolio website.</p>
+          <div class="project__link">
+            <a
+              href="https://mahadev-prasad-pal-v1.netlify.app/"
+              target="_blank"
+            >
+              <button class="btn btn__demo">Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/MV2222/personal_website_v1"
+              target="_blank"
+            >
+              <button class="btn btn__code">GitHub Code</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <img
+          src="img/pig_game-lazy.jpeg"
+          data-src="img/pig_game.jpg"
+          alt="A snippet of the working demo of 'Pig Game'"
+          class="projects__img lazy-img"
+        />
+        <div class="projects__details">
+          <h5 class="projects__header">Pig Game</h5>
+          <p>
+            A fun game to spend some quality time with your loved ones in
+            multi-player mode. Whoever reaches 100 first gets a treat from the
+            loser.
+          </p>
+          <div class="project__link">
+            <a href="https://pig-game-by-mahadev.netlify.app/" target="_blank">
+              <button class="btn btn__demo">Live Demo</button>
+            </a>
+            <a href="https://github.com/MV2222/pig_game" target="_blank">
+              <button class="btn btn__code">GitHub Code</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <img
+          src="img/guess_number-lazy.jpeg"
+          data-src="img/guess_number.jpg"
+          alt="A snippet of the working demo of 'Guess the Number'"
+          class="projects__img lazy-img"
+        />
+        <div class="projects__details">
+          <h5 class="projects__header">Guess The Number</h5>
+          <p>A retro style game to enjoy your leisure.</p>
+          <div class="project__link">
+            <a
+              href="https://guess-the-number-by-mahadev.netlify.app/"
+              target="_blank"
+            >
+              <button class="btn btn__demo">Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/MV2222/guess_the_number"
+              target="_blank"
+            >
+              <button class="btn btn__code">GitHub Code</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-2 -->
+    <section class="section" id="section-2">
+      <div class="section__title">
+        <h2 class="section__description">Education</h2>
+        <h3 class="section__header">
+          I am a <span class="highlight">2023</span> fresher.
+        </h3>
+      </div>
+
+      <div class="education">
+        <div class="education__tab-container">
+          <button
+            class="btn education__tab education__tab--1 education__tab--active"
+            data-tab="1"
+          >
+            M.Tech (CSE)
+          </button>
+          <button class="btn education__tab education__tab--2" data-tab="2">
+            B.Tech (CSE)
+          </button>
+          <button class="btn education__tab education__tab--3" data-tab="3">
+            Higher Secondary
+          </button>
+          <button class="btn education__tab education__tab--4" data-tab="4">
+            Secondary
+          </button>
+        </div>
+
+        <div
+          class="education__content education__content--1 education__content--active"
+        >
+          <div class="education__icon education__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="education__header">2021-2023</h5>
+          <p>CGPA- 8.39</p>
+          <p>College- Biju Patnaik University of Technology (BPUT), Odisha</p>
+          <p>
+            University- Biju Patnaik University of Technology (BPUT), Odisha
+          </p>
+        </div>
+
+        <div class="education__content education__content--2">
+          <div class="education__icon education__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="education__header">2017-2021</h5>
+          <p>CGPA- 8.03</p>
+          <p>College- Nalanda Institute of Technology(NIT), Odisha</p>
+          <p>
+            University- Biju Patnaik University of Technology (BPUT), Odisha
+          </p>
+        </div>
+
+        <div class="education__content education__content--3">
+          <div class="education__icon education__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="education__header">2015-2017</h5>
+          <p>Percentage- 52.50</p>
+          <p>College- Stewart Science College, Odisha</p>
+          <p>Board- Council of Higher Secondary Education (CHSE), Odisha</p>
+        </div>
+
+        <div class="education__content education__content--4">
+          <div class="education__icon education__icon--4">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book"></use>
+            </svg>
+          </div>
+          <h5 class="education__header">2011-2015</h5>
+          <p>Percentage- 86.16</p>
+          <p>School- Saraswati Shishu Vidya Mandir (SSVMT), Odisha</p>
+          <p>Board- Board of Secondary Education (BSE), Odisha</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-3 -->
+    <!-- EDUCATION -->
+    <section class="section" id="section-3">
+      <div class="section__title section__title--about">
+        <h2 class="section__description">About</h2>
+        <h3 class="section__header">Know my hobbies. Know me better.</h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="about about-1">
+            <h5 class="about__header">Reading</h5>
+            <p class="about__text">
+              Browsing through abundant articles on internet about not only
+              technical information but also info like general knowledge and
+              current affairs helps me stay updated with recent circumstances.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="about about-2">
+            <h5 class="about__header">Writing</h5>
+            <p class="about__text">
+              Redefining my ways of writing helps me introspect. It shapes me in
+              a better way each time. During the COVID pandemic I participated
+              in a writing event and won the second prize.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="about about-3">
+            <h5 class="about__header">Photography</h5>
+            <p class="about__text">
+              I love photography. Taking a perfect picture or turning an
+              ordinary photo to a wonderful one through editing pumps me up.
+              During my graduation, I took part in annual mobile photography
+              contest and got the runners-up title.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="about about-4">
+            <h5 class="about__header">Travelling</h5>
+            <p class="about__text">
+              Some classrooms do not have boundaries. Nature is the best guide
+              one can afford without any cost and get the most precious reward
+              for finding self. Travelling places has always helped me a lot in
+              building a calm and peaceful self who stays joyful all the time.
+            </p>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer__signature">
+      <p class="footer__copyright">
+        &copy;
+        <img
+          src="./img/s-logo black.png"
+          alt="Mahadev Prasad Pal Website's logo"
+          class="footer__logo"
+        />
+        Mahadev Prasad Pal
+      </p>
+    </footer>
+  </body>
+</html>
