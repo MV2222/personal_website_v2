@@ -86,7 +86,7 @@
   background-color: var(--color-primary);
 }
 
-.contact__icon svg {
+.contact__icon ion-icon {
   height: 2.75rem;
   width: 2.75rem;
 }
@@ -480,7 +480,7 @@ h4 {
 .slider__btn {
   position: absolute;
   top: 50%;
-  z-index: 1;
+  z-index: 10;
 
   border: none;
   background: rgba(255, 255, 255, 0.7);
