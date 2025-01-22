@@ -243,7 +243,16 @@ h4 {
   font-size: 2.4rem;
 }
 
-.project__link {
+.tech-list {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #666;
+}
+.tech-list li {
+  margin-left: 2rem;
+}
+
+.project__links {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -398,7 +407,7 @@ h4 {
   width: 100%;
   height: 100%;
   opacity: 0.15;
-  background-image: url('../gif/reading.gif');
+  background-image: url('../gif/reading.avif');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -412,7 +421,7 @@ h4 {
   width: 100%;
   height: 100%;
   opacity: 0.15;
-  background-image: url('../gif/writing.webp');
+  background-image: url('../gif/writing.avif');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -426,7 +435,7 @@ h4 {
   width: 100%;
   height: 100%;
   opacity: 0.15;
-  background-image: url('../gif/photography.gif');
+  background-image: url('../gif/photography.avif');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -440,7 +449,7 @@ h4 {
   width: 100%;
   height: 100%;
   opacity: 0.15;
-  background-image: url('../gif/travelling.gif');
+  background-image: url('../gif/travelling.avif');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -471,7 +480,7 @@ h4 {
 .slider__btn {
   position: absolute;
   top: 50%;
-  z-index: 10;
+  z-index: 1;
 
   border: none;
   background: rgba(255, 255, 255, 0.7);
